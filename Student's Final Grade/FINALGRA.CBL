@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. FINALGRADE.     
+       PROGRAM-ID. FINALGRA.     
        DATA DIVISION.
        LINKAGE SECTION.
         01  EXAM          PIC 9(3).
@@ -18,4 +18,4 @@
            END-EVALUATE.
            DISPLAY EXAM ', ' PROJECTS ' --> ' RESULT.
            GOBACK.
-       END PROGRAM FINALGRADE.
+       END PROGRAM FINALGRA.
